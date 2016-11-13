@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="pt" class="desktop">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow, all" />
+
+        <title>::: MYGEONAUTE :::</title>
+
+        <!-- Loading stylesheets -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/qtip2/2.2.0/jquery.qtip.min.css" />
+
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/ffab77f.css" />
+
+
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/c559f09.css" />
+
+
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/4273801.css" />
+
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/732b076.css" />
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/78fc010.css" />
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/46aa164.css" />
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/81a7624.css" />
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/20ce1e3.css" />
+
+        <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->    </head>
+
+    <body>
+        <div class="global-container">
+            <header>
+                <div class="hidden-xs">
+                    <div class="container header-top">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <img class="brand" src="http://www.mygeonaute.com/bundles/geonautemoduleportal/img/logo-mygeonaute.png" />
+                            </div>
+                            <div class="col-sm-5">
+                                <ul class="nav nav-pills">
+                                    <li class="disabled">
+                                        <a>Hello</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">gbzarelli <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://www.mygeonaute.com/pt-BR/portal/logout">Desconexão</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="https://account.geonaute.com/mygeonaute/profile">A minha conta</a></li>
+                                            <li><a href="#physio">O meu perfil</a></li>
+                                            <li><a href="#parameters">As minhas preferências</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="pic" href="#physio"><img class="community-pic 1" data-ldid="d943774a938b8f930f59" src="http://www.mygeonaute.com/bundles/geonautemodulecommunity/images/picture-man.png" /></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="help">?</span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://start.geonaute.com" target="_blank">Como ligar o meu produto?</a></li>
+                                            <li><a href="http://www.geonaute.com/support/forum/faq/utilisation-de-mygeonaute/" target="_blank">Perguntas frequentes</a></li>
+
+                                            <li class="divider"></li>
+                                            <li><a href="https://geonaute.zendesk.com/account/dropboxes/20205322" onClick="script: Zenbox.open('idea');
+                                    return false;">Uma sugestão? Partilhe-a!</a></li>
+                                            <li><a href="https://geonaute.zendesk.com/account/dropboxes/20205312" onClick="script: Zenbox.open('bug');
+                                    return false;">Uma preocupação? Contacte-nos!</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav class="menu header-bottom">
+                        <div class="container">
+                            <ul class="list-unstyled menu">
+
+
+                                <li class="menu-item"><a href="http://www.mygeonaute.com/pt-BR/portal/dashboard"><span class="menu-text">Painel de controlo</span></a></li>
+                                <li class="menu-item active"><a href="http://www.mygeonaute.com/pt-BR/portal/activities"><span class="menu-text">Atividades</span></a></li>
+                                <li class="menu-item"><a href="http://www.mygeonaute.com/pt-BR/portal/progress"><span class="menu-text">Estatísticas</span></a></li>
+                                <li class="menu-item"><a href="http://www.mygeonaute.com/pt-BR/portal/community"><span class="menu-text">Comunidade</span></a></li>
+
+
+                                <li class="dropdown menu-item more ">
+                                    <a class="dropdown-toggle" role="button" data-toggle="dropdown" data-target="menu-dropdown" href="#"><span class="menu-text">Mais<b class="caret"></b></span></a>
+                                    <ul id="menu-dropdown" class="dropdown-menu" role="menu">
+                                        <li class="menu-item"><a href="http://www.mygeonaute.com/pt-BR/portal/challenges"><span class="menu-text">Desafios</span></a></li>
+                                        <li class="menu-item disabled"><a href="http://www.mygeonaute.com/pt-BR/portal/coachings"><span class="menu-text">Coaching</span></a></li>
+                                        <li class="menu-item disabled"><a href="http://www.mygeonaute.com/pt-BR/portal/routes"><span class="menu-text">Itinerários</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="visible-xs">
+                    <ul class="list-unstyled toolbar">
+                        <li>
+                            <a href="#sidr-menu" class="sidr-button"><img src="http://www.mygeonaute.com/bundles/geonautemoduleportal/img/phone/icon-menu.png" /></a>
+                        </li>
+                        <li>
+                            <img class="brand" src="http://www.mygeonaute.com/bundles/geonautemoduleportal/img/phone/logo-mygeonaute.png" />
+                        </li>
+                    </ul>
+                </div>    </header>
+            <section>
+
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <h2 class="activity-page-title">As suas sessões de desporto</h2>
+                        </div>
+                        <div class="col-xs-4">
+                            <div class="action-button-header pull-right">
+                                <div class="visible-xs">
+                                    <a href="#add-manual-activity" class="open-popup-link btn add-activity" data-toggle="dropdown" href="#"><i class="icon-geonaute-add-circle"></i></a>
+                                </div>
+                                <div class="hidden-xs dropdown add-activity">
+                                    <a class="dropdown-toggle btn add-activity" data-toggle="dropdown" href="#"><i class="icon-geonaute-add-circle"></i>Adicionar uma sessão</a>
+                                    <ul class="dropdown-menu pull-right">
+                                        <li><a href="#add-manual-activity" class="add-activity open-popup-link"><i class="action icon-geonaute-add-manual"></i>Adicionar uma sessão manualmente</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="#import-activity-upload"   class="import-activity-upload open-popup-link"><i class="icon-geonaute-file"></i>A partir de um ficheiro GPX</a></li>
+                                        <li><a href="#import-activity-garmin"   class="import-activity-garmin open-popup-link"><i class="icon-geonaute-garmin-clock"></i>A partir de um produto Garmin</a></li>
+                                        <li><a href="#import-activity-onconnect" class="import-activity-onconnect open-popup-link"><i class="icon-geonaute-on"></i>A partir de um produto Geonaute</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="widget-container without-map with-chart">
+                    <div class="widget-timeline">
+                        <div id="timeline-filters" class="filters hidden-xs">
+                            <div class="container">
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a class="collapsed" data-toggle="collapse" href="#timeline-filters-panel">Filtrar as minhas sessões <b class="caret"></b></a></li>
+                                </ul>
+                                <div id="timeline-filters-panel" class="filters-panel collapse ">
+                                    <div class="row">
+                                        <div class="col-sm-4 filters-col">
+                                            <h4>Sport</h4>
+                                            <ul class="list-inline">
+                                                <li>
+                                                    <a href="" data-filter-type="sport" data-filter-id="121" class="btn btn-toggle qtip-upward " title="Corrida"><i class="icon-course-a-pied"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="" data-filter-type="sport" data-filter-id="388" class="btn btn-toggle qtip-upward " title="BTT"><i class="icon-vtt"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 filters-col">
+                                            <h4>Tags <a class="qtip-upward qtip-help" href="#" title="Os tags são palavras-chave que pode associar às suas sessões. Irão permitir-lhe filtrar as suas sessões a partir deste menu «filtrar as minhas sessões»."><i class="icon-geonaute-tip"></i></a></h4>
+                                            <ul class="list-inline">
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 filters-col">
+                                            <h4>Período</h4>
+                                            <div class="drowpdown-container-year">
+                                                <span class="hidden-xs drowpdown-label">Ano</span>
+                                                <div class="dropdown dropdown-select dropdown-year">
+                                                    <a id="dropdown-year" data-target="#" data-toggle="dropdown" ><span class="dropdown-selected-label"></span><span class="caret"></span></a>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-year">
+
+                                                        <li data-filter-type="period_year" data-filter-id="0" data-filter-default="true" class="active">
+                                                            <a href="#">
+                                                                6 últimos meses
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2014" >
+                                                            <a href="#">
+                                                                2014
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2013" >
+                                                            <a href="#">
+                                                                2013
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2012" >
+                                                            <a href="#">
+                                                                2012
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2011" >
+                                                            <a href="#">
+                                                                2011
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2010" >
+                                                            <a href="#">
+                                                                2010
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2009" >
+                                                            <a href="#">
+                                                                2009
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2008" >
+                                                            <a href="#">
+                                                                2008
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2007" >
+                                                            <a href="#">
+                                                                2007
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2006" >
+                                                            <a href="#">
+                                                                2006
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_year" data-filter-id="2005" >
+                                                            <a href="#">
+                                                                2005
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="drowpdown-container-month disabled">
+                                                <span class="hidden-xs drowpdown-label">Mês</span>
+                                                <div class="dropdown dropdown-select dropdown-month">
+                                                    <a id="dropdown-month" data-target="#" data-toggle="dropdown"><span class="dropdown-selected-label"></span><span class="caret"></span></a>
+                                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdown-month">
+                                                        <li data-filter-type="period_month" data-filter-id="0" data-filter-default="true" class="active">
+                                                            <a href="#">
+                                                                -
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="1" >
+                                                            <a href="#">
+                                                                janeiro
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="2" >
+                                                            <a href="#">
+                                                                fevereiro
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="3" >
+                                                            <a href="#">
+                                                                março
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="4" >
+                                                            <a href="#">
+                                                                abril
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="5" >
+                                                            <a href="#">
+                                                                maio
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="6" >
+                                                            <a href="#">
+                                                                junho
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="7" >
+                                                            <a href="#">
+                                                                julho
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="8" >
+                                                            <a href="#">
+                                                                agosto
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="9" >
+                                                            <a href="#">
+                                                                setembro
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="10" >
+                                                            <a href="#">
+                                                                outubro
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="11" >
+                                                            <a href="#">
+                                                                novembro
+                                                            </a>
+                                                        </li>
+                                                        <li data-filter-type="period_month" data-filter-id="12" >
+                                                            <a href="#">
+                                                                dezembro
+                                                            </a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>                
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-push-3 col-sm-6 text-center btn-filters-actions">
+                                            <a id="clear"   class="btn btn-link" href="#">Eliminar os filtros</a>
+                                            <a id="confirm" class="btn btn-primary" href="#">Validar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="activity-timeline" data-state="loading" data-activities="[{&quot;startDate&quot;:&quot;2014,11,05,12,00,00&quot;,&quot;endDate&quot;:&quot;2014,11,05,12,00,00&quot;,&quot;headline&quot;:&quot;Pedalada ao entardecer&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;766f7979c8afa4fc8927&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;766f7979c8afa4fc8927&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;05\/11\/2014 12:00&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,07,20,41,37&quot;,&quot;endDate&quot;:&quot;2014,11,07,20,41,37&quot;,&quot;headline&quot;:&quot;Treino subida\/for\u00e7a&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;58abc86a1ab2e670c380&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;58abc86a1ab2e670c380&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;07\/11\/2014 20:41&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,08,09,36,55&quot;,&quot;endDate&quot;:&quot;2014,11,08,09,36,55&quot;,&quot;headline&quot;:&quot;Fail&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;c0d373224d495e8677c0&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;c0d373224d495e8677c0&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;08\/11\/2014 09:36&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,08,12,20,29&quot;,&quot;endDate&quot;:&quot;2014,11,08,12,20,29&quot;,&quot;headline&quot;:&quot;Pedalada matutina&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;3f0a3eb3a30dbafd893c&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;3f0a3eb3a30dbafd893c&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;08\/11\/2014 12:20&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,09,18,01,21&quot;,&quot;endDate&quot;:&quot;2014,11,09,18,01,21&quot;,&quot;headline&quot;:&quot;Treinando&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;cf8a8354ce4ff49779dd&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;cf8a8354ce4ff49779dd&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;09\/11\/2014 18:01&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,11,20,49,33&quot;,&quot;endDate&quot;:&quot;2014,11,11,20,49,33&quot;,&quot;headline&quot;:&quot;Pedal pra manter a media na subida&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;1e926fc8b68407af99cc&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;1e926fc8b68407af99cc&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;11\/11\/2014 20:49&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,13,12,00,00&quot;,&quot;endDate&quot;:&quot;2014,11,13,12,00,00&quot;,&quot;headline&quot;:&quot;Sem reta pra subir mais (privacidade ocultando a rota)&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;cbccaa14d1ba98cfd371&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/vtt.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;cbccaa14d1ba98cfd371&quot;,&quot;sportId&quot;:388,&quot;sportName&quot;:&quot;BTT&quot;,&quot;sportIcon&quot;:&quot;vtt&quot;,&quot;startdate&quot;:&quot;13\/11\/2014 12:00&quot;,&quot;tags&quot;:[]}},{&quot;startDate&quot;:&quot;2014,11,14,18,23,41&quot;,&quot;endDate&quot;:&quot;2014,11,14,18,23,41&quot;,&quot;headline&quot;:&quot;Cardio connect - 14\/11\/2014&quot;,&quot;asset&quot;:{&quot;media&quot;:&quot;797abbf9b6186c53b3a6&quot;,&quot;thumbnail&quot;:&quot;\/bundles\/geonautewidgettimeline\/img\/sports\/course-a-pied.png&quot;},&quot;data&quot;:{&quot;id&quot;:&quot;797abbf9b6186c53b3a6&quot;,&quot;sportId&quot;:121,&quot;sportName&quot;:&quot;Corrida&quot;,&quot;sportIcon&quot;:&quot;course-a-pied&quot;,&quot;startdate&quot;:&quot;14\/11\/2014 18:23&quot;,&quot;tags&quot;:[]}}]">
+                            <h4 class="no-data">Sem atividade selecionada</h4>
+                        </div>
+                    </div>    
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="widget-summary">
+
+                                    <div class="subtitle-wrapper">
+                                        <div class="hidden-xs toggle-light btn-toggles qtip-upward"
+                                             title="Coloque o botão em &quot;partilhada&quot; para que os seus amigos possam ver a sua sessão no separador &quot;comunidade&quot;"
+                                             data-toggle-on=" true " 
+                                             data-activity-token='797abbf9b6186c53b3a6'
+                                             >
+                                        </div>
+                                        <h3>Sessão de Corrida de 14 de novembro de 2014</h3>
+                                    </div>
+
+                                    <ul class="nav nav-pills actions">
+                                        <li class="action">
+                                            <a href="#edit" class="qtip-upward" title="Editar a sessão"><i class="icon-geonaute-pencil"></i></a>
+                                        </li>
+                                        <li class="action">
+                                            <a href="#delete" class="qtip-upward" title="Eliminar a sessão" data-confirm="Tem a certeza de que pretende eliminar esta sessão?" data-success="A sessão foi eliminada com êxito!" data-activity-id="797abbf9b6186c53b3a6"><i class="icon-geonaute-trash"></i></a>
+                                        </li>
+                                        <li class="action dropdown last qtip-upward" title="Partilhar a sessão">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-geonaute-share"></i></b></a>
+                                            <ul class="dropdown-menu pull-right social" data-source-url="http://www.mygeonaute.com/widget/summary/ajax/share/797abbf9b6186c53b3a6?user%5Bldid%5D=d943774a938b8f930f59&amp;user%5Btoken%5D=mBWE9vDAJv0nFs%2FGcpi9Sn8mZMFX0WaX%2FaZQhhpvHD7o6QFPE%2FvOS7w2j2%2F0fz%2BxRJCqa3bIxRH%2BB0O19HG2OF%2BVJsMZnvqhuQDsAoddzQ6n9TGfLRG%2BDy17h5y9lVNsltIq9kr9wq6O9v%2BQxfz6bjw04f8kQ9eSijoBP3AVg4U%3D&amp;user%5Blang%5D=pt&amp;user%5Blevel%5D=0&amp;activity%5Bactivity_id%5D=797abbf9b6186c53b3a6">
+                                                <li class="social-button link"><a href="#link"><span class="glyphicon icon-geonaute-link"> </span> Link de partilha</a></li>
+                                                <li class="social-button facebook"><a href="#facebook"><span class="glyphicon icon-geonaute-facebook"> </span> Partilha Facebook</a></li>
+                                                <li class="social-button twitter"><a href="#twitter"><span class="glyphicon icon-geonaute-twitter"> </span> Partilha Twitter</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <ul class="list-inline values clearfix">
+                                        <li class="qtip-upward datatype datatype-4 " title="Cardio méd.">
+                                            <span class="icon-datasummary icon-geonaute-heart"></span>
+                                            <span class="value">84 bpm</span>
+                                            <span class="related-value">42 % FCM</span>
+                                        </li>
+                                        <li class="qtip-upward datatype datatype-24 " title="Duração">
+                                            <span class="icon-datasummary icon-geonaute-time"></span>
+                                            <span class="value">0:09&#039;54&#039;&#039;</span>
+                                            <span class="related-value">&nbsp;</span>
+                                        </li>
+                                        <li class="qtip-upward datatype datatype-23 " title="Calorias queimadas">
+                                            <span class="icon-datasummary icon-geonaute-cal"></span>
+                                            <span class="value">43 kcal</span>
+                                            <span class="related-value">&nbsp;</span>
+                                        </li>
+                                        <li class="qtip-upward datatype datatype-99 " title="Pontos ganhos">
+                                            <span class="icon-datasummary icon-geonaute-on"></span>
+                                            <span class="value">29 ON</span>
+                                            <span class="related-value">&nbsp;</span>
+                                        </li>
+                                    </ul>
+                                </div>    
+                                <div class="widget-chart">
+                                    <!-- chart-legend-group -->
+
+                                    <div class="chart-legend-group">
+                                        <div class="btn-group chart-legend chart-legend-speed disabled hidden">
+                                            <button type="button" class="btn btn-link"><i class="icon-geonaute-perform"></i></button>
+                                        </div>
+
+                                        <div class="btn-group hidden">
+                                            <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li>
+                                                    <input type="radio" name="speed-unit" value="speed" id="speed-unit-speed" checked="true" />
+                                                    <label for="speed-unit-speed">km/h</label>
+                                                </li>
+                                                <li>
+                                                    <input type="radio" name="speed-unit" value="speed-rate" id="speed-unit-speed-rate" />
+                                                    <label for="speed-unit-speed-rate">min/km</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="btn-group chart-legend chart-legend-elevation disabled hidden">
+                                            <button type="button" class="btn btn-link"><i class="icon-geonaute-mountain"></i></button>
+                                        </div>
+
+                                        <div class="btn-group chart-legend chart-legend-heartrate disabled ">
+                                            <button type="button" class="btn btn-link"><i class="icon-geonaute-heart"></i></button>
+                                        </div>
+
+                                        <div class="btn-group chart-legend chart-legend-rpm disabled hidden">
+                                            <button type="button" class="btn btn-link"><i class="icon-geonaute-rpm"></i></button>
+                                        </div>
+
+                                        <div class="btn-group chart-separator chart-separator-section">
+                                            <span class="hidden-xs">Secção: </span>
+                                        </div>
+
+                                        <div class="btn-group chart-section hidden-xs">
+                                            <button type="button" class="btn btn-default"><i class="icon-geonaute-section"></i></button>
+                                        </div>
+                                        <div class="btn-group chart-separator">
+                                            <span class="hidden-xs">Apresentação: </span>
+                                        </div>
+
+                                        <div class="btn-group chart-view chart-view-lines active">
+                                            <button type="button" class="btn btn-default"><i class="icon-geonaute-data-chart"></i></button>
+                                        </div><div class="btn-group chart-view chart-view-bars">
+                                            <button type="button" class="btn btn-default"><i class="icon-geonaute-barchart"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="activity-lines with-laps">
+
+                                        <!-- chart-summary-group -->
+
+                                        <div class="chart-summary-group">
+                                            <ul class="list-inline chart-summary chart-summary-speed hidden">
+                                                <li class="chart-summary-element"><span class="summary-line"></span> Velocidade média  <span class="value value-avg-speed"></li>
+                                                <li class="chart-summary-element">Velocidade máx.: <span class="value value-max-speed"></li>
+                                            </ul>
+
+                                            <ul class="list-inline chart-summary chart-summary-elevation hidden">
+                                                <li class="chart-summary-element">Velocidade de subida: <span class="value value-ascent-speed"></li>
+                                                <li class="chart-summary-element">Velocidade de descida: <span class="value value-descent-speed"></li>
+                                            </ul>
+
+                                            <ul class="list-inline chart-summary chart-summary-heartrate hidden">
+                                                <li class="chart-summary-element"><a href="#heartrate-chart-popup" class="open-popup-link"><i class="icon-geonaute-tip"></i> Zonas cores</a></li>
+                                            </ul>
+
+                                            <ul class="list-inline chart-summary chart-summary-rpm hidden">
+                                                <li class="chart-summary-element"><span class="summary-line"></span> Cadência média</li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- chart-wrapper -->
+
+
+                                        <div class="chart-wrapper">
+                                            <ul class="hidden chart-data">
+                                                <li class="chart-value" data-type="series" data-name="speed">false</li>
+                                                <li class="chart-value" data-type="series" data-name="elevation">false</li>
+                                                <li class="chart-value" data-type="series" data-name="heartrate">[[0,76],[2,75],[4,74],[6,70],[8,71],[10,70],[12,71],[14,70],[16,70],[18,70],[20,73],[22,75],[24,73],[26,73],[28,75],[30,77],[32,77],[34,73],[36,70],[38,68],[40,69],[42,67],[44,69],[46,72],[48,72],[50,71],[52,75],[54,76],[56,76],[58,78],[60,77],[62,78],[64,80],[66,81],[68,83],[70,81],[72,81],[74,84],[76,87],[78,88],[80,91],[82,91],[84,90],[86,87],[88,88],[90,89],[92,88],[94,87],[96,89],[98,85],[100,85],[102,87],[104,90],[106,91],[108,90],[110,87],[112,85],[114,85],[116,83],[118,86],[120,85],[122,80],[124,80],[126,81],[128,81],[130,81],[132,81],[134,81],[136,79],[138,83],[140,84],[142,85],[144,81],[146,79],[148,78],[150,78],[152,78],[154,77],[156,73],[158,73],[160,69],[162,66],[164,65],[166,67],[168,67],[170,70],[172,72],[174,74],[176,76],[178,77],[180,82],[182,82],[184,79],[186,80],[188,80],[190,82],[192,85],[194,89],[196,89],[198,88],[200,86],[202,86],[204,86],[206,87],[208,84],[210,81],[212,79],[214,78],[216,76],[218,75],[220,75],[222,77],[224,75],[226,75],[228,75],[230,75],[232,73],[234,72],[236,72],[238,73],[240,71],[242,70],[244,70],[246,69],[248,67],[250,68],[252,66],[254,64],[256,65],[258,63],[260,64],[262,65],[264,70],[266,74],[268,73],[270,73],[272,73],[274,74],[276,72],[278,70],[280,71],[282,69],[284,70],[286,71],[288,70],[290,67],[292,68],[294,68],[296,69],[298,67],[300,66],[302,67],[304,70],[306,72],[308,72],[310,79],[312,83],[314,91],[316,91],[318,93],[320,88],[322,87],[324,88],[326,88],[328,88],[330,89],[332,89],[334,91],[336,87],[338,86],[340,84],[342,82],[344,84],[346,87],[348,88],[350,89],[352,89],[354,89],[356,87],[358,87],[360,87],[362,87],[364,90],[366,91],[368,88],[370,90],[372,89],[374,89],[376,90],[378,89],[380,90],[382,87],[384,87],[386,86],[388,87],[390,91],[392,90],[394,91],[396,88],[398,86],[400,85],[402,87],[404,87],[406,91],[408,91],[410,93],[412,93],[414,98],[416,106],[418,121],[420,128],[422,126],[424,126],[426,126],[428,126],[430,126],[432,126],[434,126],[436,126],[438,126],[440,126],[442,126],[444,126],[446,126],[448,126],[450,126],[452,126],[454,126],[456,126],[458,126],[460,126],[462,81],[464,80],[466,78],[468,80],[470,81],[472,83],[474,83],[476,83],[478,83],[480,83],[482,83],[484,83],[486,83],[488,83],[490,83],[492,83],[494,83],[496,83],[498,83],[500,83],[502,83],[504,83],[506,83],[508,83],[510,83],[512,83],[514,83],[516,83],[518,83],[520,83],[522,83],[524,83],[526,83],[528,83],[530,83],[532,83],[534,83],[536,83],[538,83],[540,83],[542,83],[544,83],[546,83],[548,83],[550,83],[552,83],[554,83],[556,83],[558,83],[560,83],[562,83],[564,83],[566,83],[568,83],[570,83],[572,83],[574,83],[576,83],[578,83],[580,83],[582,83],[584,83],[586,83],[588,83],[590,83],[592,83]]</li>
+                                                <li class="chart-value" data-type="series" data-name="coaching-sections">false</li>
+                                                <li class="chart-value" data-type="series" data-name="rpm">false</li>
+                                                <li class="chart-value" data-type="ticks"  data-name="xaxis">[[0,0],[592,1]]</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="activity-bars with-laps" style="display: none">
+
+                                        <!-- chart-wrapper -->
+
+
+                                        <div class="chart-wrapper">
+                                            <ul class="hidden chart-data">
+                                                <li class="chart-value" data-type="series" data-name="speed">false</li>
+                                                <li class="chart-value" data-type="series" data-name="elevation">false</li>
+                                                <li class="chart-value" data-type="series" data-name="heartrate">[[0,76],[2,75],[4,74],[6,70],[8,71],[10,70],[12,71],[14,70],[16,70],[18,70],[20,73],[22,75],[24,73],[26,73],[28,75],[30,77],[32,77],[34,73],[36,70],[38,68],[40,69],[42,67],[44,69],[46,72],[48,72],[50,71],[52,75],[54,76],[56,76],[58,78],[60,77],[62,78],[64,80],[66,81],[68,83],[70,81],[72,81],[74,84],[76,87],[78,88],[80,91],[82,91],[84,90],[86,87],[88,88],[90,89],[92,88],[94,87],[96,89],[98,85],[100,85],[102,87],[104,90],[106,91],[108,90],[110,87],[112,85],[114,85],[116,83],[118,86],[120,85],[122,80],[124,80],[126,81],[128,81],[130,81],[132,81],[134,81],[136,79],[138,83],[140,84],[142,85],[144,81],[146,79],[148,78],[150,78],[152,78],[154,77],[156,73],[158,73],[160,69],[162,66],[164,65],[166,67],[168,67],[170,70],[172,72],[174,74],[176,76],[178,77],[180,82],[182,82],[184,79],[186,80],[188,80],[190,82],[192,85],[194,89],[196,89],[198,88],[200,86],[202,86],[204,86],[206,87],[208,84],[210,81],[212,79],[214,78],[216,76],[218,75],[220,75],[222,77],[224,75],[226,75],[228,75],[230,75],[232,73],[234,72],[236,72],[238,73],[240,71],[242,70],[244,70],[246,69],[248,67],[250,68],[252,66],[254,64],[256,65],[258,63],[260,64],[262,65],[264,70],[266,74],[268,73],[270,73],[272,73],[274,74],[276,72],[278,70],[280,71],[282,69],[284,70],[286,71],[288,70],[290,67],[292,68],[294,68],[296,69],[298,67],[300,66],[302,67],[304,70],[306,72],[308,72],[310,79],[312,83],[314,91],[316,91],[318,93],[320,88],[322,87],[324,88],[326,88],[328,88],[330,89],[332,89],[334,91],[336,87],[338,86],[340,84],[342,82],[344,84],[346,87],[348,88],[350,89],[352,89],[354,89],[356,87],[358,87],[360,87],[362,87],[364,90],[366,91],[368,88],[370,90],[372,89],[374,89],[376,90],[378,89],[380,90],[382,87],[384,87],[386,86],[388,87],[390,91],[392,90],[394,91],[396,88],[398,86],[400,85],[402,87],[404,87],[406,91],[408,91],[410,93],[412,93],[414,98],[416,106],[418,121],[420,128],[422,126],[424,126],[426,126],[428,126],[430,126],[432,126],[434,126],[436,126],[438,126],[440,126],[442,126],[444,126],[446,126],[448,126],[450,126],[452,126],[454,126],[456,126],[458,126],[460,126],[462,81],[464,80],[466,78],[468,80],[470,81],[472,83],[474,83],[476,83],[478,83],[480,83],[482,83],[484,83],[486,83],[488,83],[490,83],[492,83],[494,83],[496,83],[498,83],[500,83],[502,83],[504,83],[506,83],[508,83],[510,83],[512,83],[514,83],[516,83],[518,83],[520,83],[522,83],[524,83],[526,83],[528,83],[530,83],[532,83],[534,83],[536,83],[538,83],[540,83],[542,83],[544,83],[546,83],[548,83],[550,83],[552,83],[554,83],[556,83],[558,83],[560,83],[562,83],[564,83],[566,83],[568,83],[570,83],[572,83],[574,83],[576,83],[578,83],[580,83],[582,83],[584,83],[586,83],[588,83],[590,83],[592,83]]</li>
+                                                <li class="chart-value" data-type="series" data-name="rpm">false</li>
+                                                <li class="chart-value" data-type="ticks"  data-name="xaxis">[[0,0],[592,1]]</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <!-- heartrate-chart-popup -->
+
+                                    <div id="heartrate-chart-popup" class="popup mfp-hide">
+                                        <h3>Zonas cardio</h3>
+
+                                        <div class="heartrate-level heartrate-level-1">
+                                            <div class="color-box"></div>
+                                            <h4>Aquecimento/Recup.</h4>
+                                            <p>50 a 60% da sua FCM</p>
+                                            <p>A zona azul corresponde a um esfoço moderado, ideal no início da sessão para se aquecer em suavidade e no final da sessão para recuperar ativamente eliminando os resíduos gerados pelos seus músculos durante o esforço.</p>
+                                        </div>
+
+                                        <div class="heartrate-level heartrate-level-2">
+                                            <div class="color-box"></div>
+                                            <h4>Endurance fundamental</h4>
+                                            <p>60 a 70% da sua FCM</p>
+                                            <p>A endurance fundamental é essencial para todos os desportistas. É particularmente benéfica tanto para a saúde como para melhorar o seu desempenho nas saídas longas. Pratique nesta zona mais de 45 minutos para fazer trabalhar o seu coração em suavidade, para melhorar a irrigação dos seus músculos e para habituar estes últimos a usarem as suas reservas de gordura.</p>
+                                        </div>
+
+                                        <div class="heartrate-level heartrate-level-3">
+                                            <div class="color-box"></div>
+                                            <h4>Endurance ativa</h4>
+                                            <p>70 a 80% da sua FCM</p>
+                                            <p>Nesta zona, você pratica um esforço dentro do seu limiar anaeróbico: o esforço é intenso mas o seu corpo é capaz de fornecer oxigénio suficiente para manter esse esforço a longo prazo. Um treino em endurance ativa permitirá habituar os seus músculos para melhor consumirem os açúcares presentes nas fibras musculares durante o esforço e para armazenarem melhor esses açúcares em repouso. Este tipo de treino deve ser menos frequente do que a endurance fundamental.</p>
+                                        </div>
+
+                                        <div class="heartrate-level heartrate-level-4">
+                                            <div class="color-box"></div>
+                                            <h4>Resistência suave</h4>
+                                            <p>80 a 90% da sua FCM</p>
+                                            <p>O seu organismo não fornece oxigénio suficiente para responder à procura dos seus músculos: é o limiar anaeróbico ou resistência. Esta zona permite melhorar o seu desempenho e a sua endurance se trabalhá-la em esforços curtos e repetidos (fracionados). Os seus músculos irão tornar-se mais económicos e o seu coração mais regular ao aproximar-se do limiar.</p>
+                                        </div>
+
+                                        <div class="heartrate-level heartrate-level-5">
+                                            <div class="color-box"></div>
+                                            <h4>Resistência dura</h4>
+                                            <p>&gt; 90% da sua FCM</p>
+                                            <p>Esta zona corresponde a um esforço muito intenso. Deve ser trabalhada apenas por meio de esforços fracionados extremamente curtos. Permite elevar o seu limiar anaeróbico e, logo, melhorar o seu desempenho e a sua endurance. A zona vermelha está reservada aos desportistas que se conhecem bem e que estão em busca real de desempenho.</p>
+                                        </div>
+
+                                        <dl class="list-inline">
+                                            <dt>FCM:</dt>
+                                            <dd>Frequência Cardíaca Máxima</dd>
+                                        </dl>
+                                    </div>
+                                </div>    
+                                <div class="widget-lap">
+                                    <h4>
+                                        Detalhe por volta
+                                        <div class="dropdown dropdown-select">
+                                            <a href="#" data-toggle="dropdown"><span class="dropdown-selected-label">A cada 400m</span> <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#" data-laps="from_device">Voltas do produto</a></li>
+                                                <li><a href="#" data-laps="every_400m">A cada 400m</a></li>
+                                                <li><a href="#" data-laps="every_1km">A cada 1km</a></li>
+                                                <li><a href="#" data-laps="every_5km">A cada 5km</a></li>
+                                            </ul>
+                                        </div>
+                                    </h4>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th><i class="qtip-upward icon-geonaute-time" title="Tempo"></i></th>
+                                                <th><i class="qtip-upward icon-geonaute-heart" title="BPM méd."></i></th>
+                                            </tr>
+                                        </thead>
+
+                                        <tr>
+                                            <th>
+                                        <div class="value">1</div>
+                                        </th>
+                                        <td>
+                                            <div class="value">0:09&#039;52&#039;&#039;</div>
+                                        </td>
+                                        <td>
+                                            <div class="value">84 bpm</div>
+                                            <div class="related-value">42 % FCM</div>
+                                        </td>
+                                        </tr>
+                                    </table>
+                                </div>    
+                                <div class="widget-share-activity">
+                                    <div class="subtitle-wrapper">
+                                        <h3>Modifique, Partilhe...</h3>
+                                    </div>
+
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-xs-6 col-xs-push-3 ">
+                                                <div class=" toggle-light btn-toggles qtip-upward"
+                                                     title="Coloque o botão em &quot;partilhada&quot; para que os seus amigos possam ver a sua sessão no separador &quot;comunidade&quot;"
+                                                     data-toggle-on=" true " 
+                                                     data-activity-token='797abbf9b6186c53b3a6'
+                                                     >
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-3 col-sm-pull-2">
+                                                <div class="action-button">
+                                                    <a href="#edit"><i class="icon-geonaute-pencil"></i></a>
+                                                </div>
+                                                <div class="action-button">
+                                                    <a href="#delete" data-confirm="Tem a certeza de que pretende eliminar esta sessão?" data-success="A sessão foi eliminada com êxito!" data-activity-id="797abbf9b6186c53b3a6"><i class="icon-geonaute-trash"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <div class="pull-right social" data-source-url="http://www.mygeonaute.com/widget/summary/ajax/share/797abbf9b6186c53b3a6?user%5Bldid%5D=d943774a938b8f930f59&amp;user%5Btoken%5D=mBWE9vDAJv0nFs%2FGcpi9Sn8mZMFX0WaX%2FaZQhhpvHD7o6QFPE%2FvOS7w2j2%2F0fz%2BxRJCqa3bIxRH%2BB0O19HG2OF%2BVJsMZnvqhuQDsAoddzQ6n9TGfLRG%2BDy17h5y9lVNsltIq9kr9wq6O9v%2BQxfz6bjw04f8kQ9eSijoBP3AVg4U%3D&amp;user%5Blang%5D=pt&amp;user%5Blevel%5D=0&amp;activity%5Bactivity_id%5D=797abbf9b6186c53b3a6">
+                                                    <div class="action-button social-button twitter">
+                                                        <a href="#twitter"><i class="icon-geonaute-twitter"></i></a>
+                                                    </div>
+                                                    <div class="action-button social-button facebook">
+                                                        <a href="#facebook"><i class="icon-geonaute-facebook"></i></a>
+                                                    </div>
+                                                    <div class="action-button social-button link">
+                                                        <a  href="#link"><i class="icon-geonaute-link"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                            </div>
+
+                            <div class="col-sm-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="similar-activities-container">
+                    <div class="container">
+                        <div class="similar-activities-legend">
+                            <h4>Comparar esta sessão com uma outra <a href="#" class="qtip-upward qtip-help" title="Sugestão de sessões semelhantes. Selecione para comparar o seu desempenho."><i class="icon-geonaute-tip"></i></a></h4>
+                            <hr />
+                            <span>Filtrar por semelhança:</span>
+                            <ul class="list-inline">
+                                <li><a href="#" class="qtip-upward active" title="Distância próxima" data-datatype-id="5"><i class="icon-geonaute-road"></i></a></li>
+                                <li><a href="#" class="qtip-upward" title="Velocidade próxima" data-datatype-id="9"><i class="icon-geonaute-perform"></i></a></li>
+                                <li><a href="#" class="qtip-upward" title="Calorias próximas" data-datatype-id="23"><i class="icon-geonaute-cal"></i></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="similar-activities row"></div>
+
+                        <div class="similar-activities-action">
+                            <button name="load-more" class="btn btn-default">Mais sessões <span class="caret"></span></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-description-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="comment">
+                                    <h4>Anotações sobre a sessão</h4>
+                                    <div class="placeholder">
+                                        <span class="desc1">Clique aqui para adicionar algumas notas à sua sessão para se recordar dos momentos importantes:</span><br />
+                                        <span class="desc2">as suas sensações, as suas alegrias, as suas dificuldades, a meteorologia, um encontro, um episódio particular...</span>
+                                    </div>
+                                    <textarea id="activity_comment" ></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="tags">
+                                <div class="col-md-12">
+                                    <h4>Tags da sessão 
+                                        <a href="#" data-toggle="tooltip" class="qtip-upward qtip-help" title="Os tags são palavras-chave que pode associar às suas sessões a partir do pé da página. Irão permitir-lhe filtrar as suas sessões a partir deste menu «filtrar as minhas sessões»." ><i class="icon-geonaute-tip"></i></a>
+                                    </h4>
+                                    <span class="subtitle">Marque a sua sessão com um tag para encontrá-la mais facilmente!</span>
+                                    <ul class="tags-container" data-activity-tags='[]'></ul>
+                                    <span class="tag-placeholder">Nenhum tag associado a esta sessão.</span>
+                                </div>
+                                <div class="col-md-6 my-tags">
+                                    <span class="subtitle">Escolha entre os tags que já utilizou</span>
+                                    <ul class="my-tags-container" data-my-tags='[]'></ul>
+                                </div>
+                                <div class="col-md-6 new-tag">
+                                    <span class="subtitle">Crie novos tags para esta sessão</span>
+                                    <form>
+                                        <input type="text" />
+                                        <span class="helper">Separe os tags por &quot;;&quot; ex: Fracionado;Vento forte;Chuvoso</span>
+                                        <button type="submit" class="btn btn-default">Criar</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <footer>
+                <div class="container">
+                    <a class="scroll-top" href="#"><b>Alto</b><br />de página</a>
+
+                    <div class="visible-xs footer-links">
+                        <ul class="list-unstyled link-list">
+                            <li><a href="#disclaimer" class="open-popup-link">Avisos legais</a></li>
+                            <li><a href="#personal_data" class="open-popup-link">Dados pessoais</a></li>
+                            <li><a href="/pdf/GCUmyGeonaute-en.pdf" target="_blank">CGU</a></li>
+                            <li><a href="https://geonaute.zendesk.com/account/dropboxes/20205312" onClick="script: Zenbox.open('bug');
+                                return false;">Contacto</a></li>
+                            <li><a href="http://www.decathlon.com.br/" target="_blank">Comprar</a></li>
+                            <li>Idioma : <a href="#language" class="open-popup-link"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/PT.png"/> português</a></li>
+                            <li>País : <a href="#country" class="open-popup-link"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/BR.png"/> Brasil</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="hidden-xs footer-links">
+                        <div class="column-container">
+                            <div class="column">
+                                <dl>
+                                    <dt>Navegação</dt>
+                                    <dd><a href="http://www.mygeonaute.com/pt-BR/portal/dashboard">Painel de controlo</a></dd>
+                                    <dd><a href="http://www.mygeonaute.com/pt-BR/portal/activities">Atividades</a></dd>
+                                    <dd><a href="http://www.mygeonaute.com/pt-BR/portal/progress">Progressão</a></dd>
+                                    <dd><a href="http://www.mygeonaute.com/pt-BR/portal/challenges">Desafios</a></dd>
+                                    <dd><a href="http://www.mygeonaute.com/pt-BR/portal/routes">Itinerários</a></dd>
+                                    <dd><a href="http://www.mygeonaute.com/pt-BR/portal/coachings">Coaching</a></dd>
+                                </dl>
+                            </div>
+                            <div class="column">
+                                <dl>
+                                    <dt>Na Web</dt>
+                                    <dd><a href="http://www.facebook.com/geonaute" target="_blank">Facebook</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt>Comprar</dt>
+                                    <dd><a href="http://www.decathlon.com.br/" target="_blank">Shop online</a></dd>
+                                    <dd><a href="http://www.decathlon.com.br/encontrenossaslojas" target="_blank">Lojas</a></dd>
+                                </dl>
+                            </div>
+                            <div class="column">
+                                <dl>
+                                    <dt>Legal</dt>
+                                    <dd><a href="#disclaimer" class="open-popup-link">Avisos legais</a></dd>
+                                    <dd><a href="#personal_data" class="open-popup-link">Dados pessoais</a></dd>
+                                    <dd><a href="/pdf/GCUmyGeonaute-en.pdf" target="_blank">CGU</a></dd>
+                                </dl>
+                            </div>
+                            <div class="column">
+                                <dl>
+                                    <dt>Ajuda</dt>
+                                    <dd><a href="http://www.geonaute.com/support/forum/faq/utilisation-de-mygeonaute/" target="_blank">FAQ</a></dd>
+                                    <dd><a href="https://geonaute.zendesk.com/account/dropboxes/20205312" onClick="script: Zenbox.open('bug');
+                                                return false;">Contacto</a></dd>
+                                    <dd><a href="http://www.mygeonaute.com/downloads/onconnect?os=Win">Transferir ONconnect</a></dd>
+                                </dl>
+                            </div>
+                            <div class="column">
+                                <dl>
+                                    <dt>Idioma</dt>
+                                    <dd><a href="#language" class="open-popup-link"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/PT.png"/> português</a></dd>
+                                </dl>
+                                <dl>
+                                    <dt>País</dt>
+                                    <dd><a href="#country" class="open-popup-link"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/BR.png"/> Brasil</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="disclaimer" class="popup mfp-hide">
+                    <h3>Avisos legais</h3>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#disclaimer-fr" data-toggle="tab">Français</a></li>
+                        <li><a href="#disclaimer-en" data-toggle="tab">English</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="disclaimer-fr">
+
+                            <h4>DECATHLON</h4>
+                            <p>
+                                Société Anonyme à Directoire et Conseil de surveillance<br />
+                                Capital : 10.250.000 €<br />
+                                Siege social : 4 boulevard de Mons, 59650 Villeneuve d’Ascq<br />
+                                RCS : Lille Métropole -  numéro 306 138 900<br />
+                                TVA Intracommunautaire : FR51306138900<br />                                       
+                            </p>
+                            <p>
+                                Directeur de la publication : <strong>Stéphane Marchioni</strong><br />
+                                Adresse de contact :<br />
+                                <strong>DECATHLON S.A.</strong> Siège social : 4 bd de Mons B.P. 299 59665 Villeneuve d'Ascq FRANCE<br /> 
+                                TEL : +33 3 20 33 5000 (prix d’un appel local)<br />
+                                Email : <a href="mailto:support@geonaute.com">support@geonaute.com</a><br />
+                            </p>
+                            <h4>Hébergeur</h4>
+                            <p>
+                                ZENEXITY<br />
+                                Société Anonyme<br />
+                                56 Rue Saint-Lazare, 75009 Paris<br />
+                                TEL : +33 1 75 57 89 35 (prix d’un appel local)<br />
+                                RCS : 480 015 890 00068<br />
+                            </p>
+                            <h4>Propriété intellectuelle</h4>
+                            <p>
+                                Le présent Site est protégé au titre de la propriété intellectuelle, notamment droits d’auteurs, dessins et modèles, marques, noms de domaine, brevets, savoir-faire, logiciels ou bases de données. Le groupe DECATHLON SA (Réseau OXYLANE) et/ou ses partenaires reste(nt) propriétaire(s) de l’ensemble de ces contenus et droits associés.<br />
+                                Sur ces contenus, le Réseau OXYLANE vous accorde une licence limitée, non-exclusive, révocable, sans droit de sous-licencier pour les simples accès, navigation et utilisation liés au présent Site. Cette licence ne vous accorde aucun autre droit, en particulier d’exploitation commerciale de ces contenus.
+                            </p> 
+                        </div>
+                        <div class="tab-pane" id="disclaimer-en">
+                            <h4>DECATHLON</h4>
+                            <p> 
+                                Société Anonyme (limited company) with executive and supervisory boards<br /> 
+                                Capital: €10,250,000<br />
+                                Registered offices: 4 boulevard de Mons, 59650 Villeneuve d’Ascq<br />
+                                RCS: Lille Métropole - number 306 138 900 <br />
+                                Intracommunity VAT number: FR51306138900<br />                                           
+                            </p>
+                            <p>
+                                Editor in chief: <strong>Stéphane Marchioni</strong><br />
+                                Contact address:<br />
+                                DECATHLON S.A. Registered office: 4 bd de Mons B.P. 299 59665 Villeneuve d'Ascq FRANCE<br /> 
+                                TEL: +33 3 20 33 5000 (charged at local call rates from a French landline)<br />
+                                Email: <a href="mailto:support@geonaute.com">support@geonaute.com</a><br />
+                            </p>
+                            <h4>HOST</h4>
+                            <p>
+                                ZENEXITY<br />
+                                Société Anonyme (limited company)<br />
+                                56 Rue Saint-Lazare, 75009 Paris<br />
+                                TEL: +33 1 75 57 89 35 (charged at local call rates from a French landline)<br />
+                                RCS: 480 015 890 00068<br />
+                            </p>
+
+                            <h4>INTELLECTUAL PROPERTY</h4>
+                            <p>
+                                This site is protected intellectual property, in particular copyrights, drawings and models, brands, domain names, patents, knowledge, software and databases. DECATHLON SA (OXYLANE Network) and/or its partners remain the owners of this content and the related rights.
+                                The OXYLANE Network grants a limited, non-exclusive, revocable licence for access, browsing and other uses linked to the site (this licence is not transferable). This licence does not grant you any other rights, in particular for commercial use of the website content.
+                            </p>      </div>
+                    </div>
+
+                </div>
+                <div id="personal_data" class="popup mfp-hide">
+                    <h3>Dados pessoais e cookies</h3>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#personal-data-fr" data-toggle="tab">Français</a></li>
+                        <li><a href="#personal-data-en" data-toggle="tab">English</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="personal-data-fr">
+
+                            <h4>I - Collecte de données par MYGEONAUTE</h4>
+                            <h5>A quoi servent vos données ?</h5>
+                            <p>Vos données font l’objet de traitements informatiques permettant la gestion de votre compte utilisateur. Elles sont également utilisées par les sociétés du Réseau Oxylane, dans le cadre d’études statistique et d’actions marketing, afin de vous proposer les offres adaptées à vos préférences sportives, assurer le suivi qualité de nos produits et services et, sous réserve de votre accord préalable, permettre la prospection commerciale.</p>
+
+                            <h5>A qui sont destinées vos données ?</h5> 
+                            <p>Les données collectées sur ce Site sont à destination de la société DECATHLON SA,  en sa qualité de responsable de traitement. Ces données sont également destinées aux autres entités du Réseau OXYLANE (Filiales de DECATHLON SA). Pour en savoir plus sur les sociétés du Réseau OXYLANE, rendez vous sur le site <a href="http://www.oxylane.com">www.oxylane.com</a>.</p>
+
+                            <h5>Comment sont protégées vos données ?</h5>
+                            <p>Conformément aux dispositions l’article 34 de la loi du 6 janvier 1978 relative à l’informatique, aux fichiers et aux et libertés MYGEONAUTE prend toutes les précautions pour préserver la sécurité de vos données afin, notamment, d’empêcher leur divulgation à des tiers non-autorisés. A ce titre MYGEONAUTE met en place toutes les mesures nécessaires à la sécurisation de ses dispositifs informatiques. Dans l’hypothèse où vos données font l’objet du transfert auprès de sous-traitants (notamment pour leur hébergement), MYGEONAUTE veille à ce que ces derniers présentent un niveau de sécurité conforme aux standards requis.</p>
+
+                            <h5>Vos données sont-elles transférées en dehors de l’union Européenne ?</h5>
+                            <p>Vos données peuvent, notamment en raison de la sous-traitance partielle du traitement, faire l'objet d'un transfert vers des prestataires établis en dehors de l’union Européenne. Dans cette hypothèse, MYGEONAUTE veille à ce que ce transfert respecte les recommandations de la CNIL : signature de clauses contractuelles émises par la commission Européenne ou, pour un prestataire établi aux Etats-Unis, vérification de son adhésion préalable au Safe Harbor.</p> 
+
+                            <h5>Quels sont vos droits ?</h5>  
+                            <p>Conformément aux dispositions des articles 38, 39 et 40 de la loi du 6 janvier 1978 relative à l’informatique, aux fichiers et aux et libertés, vous disposez d’un droit d’accès, de rectification et d’opposition aux traitements de données vous concernant en adressant un Courrier et/ou courriel  à :</p>
+                            <strong>DECATHLON SA</strong><br />
+                            <strong>Service GEONAUTE</strong><br />
+                            4 rue du professeur Langevin 59000 Lille<br />
+                            <a href="mailto:geonaute-support@decathlon.com">geonaute-support@decathlon.com</a><br />
+                            <small>(joindre à votre courrier une copie de votre pièce d’identité).</small>  
+
+                            <p>MYGEONAUTE vous garantit que vos données ne peuvent être utilisées à des fins de sollicitations commerciales sans que vous n’y ayez préalablement consenti. En cas de sollicitation commerciale consentie MYGEONAUTE, vous garantit le droit de vous y opposer à posteriori.</p>
+
+                            <h4>II -  Enregistrement de données au moyen de cookies</h4>
+
+                            <h5>Qu’est ce qu’un cookie ? :</h5>
+                            <p>MYGEONAUTE utilise des "cookies". Le cookie est un fichier, installé sur votre terminal, permettant de stocker des informations relatives à votre navigation sur notre site internet (paramètres de langue, temps de connexion, pages visitées, ...). Nous pouvons consulter ces données lors de vos prochaines visites, notamment pour faciliter votre navigation.</p> 
+
+                            <p>Les cookies utilisés par notre site enregistrent notamment votre adresse IP et votre identifiant utilisateur. Les paragraphes ci-dessous ont pour objectif, dans un souci de transparence, de vous donner un recensement exhaustif des cookies utilisés par MYGEONAUTE, et de vous proposer une solution pour adapter votre choix. Nous attirons votre attention sur le fait que le partage de l’utilisation votre terminal avec d’autres personnes est susceptible de modifier le caractère personnalisé de l’action des cookies</p>
+
+                            <h5>Quels sont les Cookies utilisés  par MYGEONAUTE?</h5>
+                            <p>MYGEONAUTE utilise les «Cookies » notamment aux fins suivantes :</p>
+                            <ul>
+                                <li>les cookies utilisés comme "panier d’achat" sur un site marchand (conserver le suivi des éléments enregistrés dans votre panier de commande)</li>
+                                <li>les cookies de "session utilisateur" (SessionID) permettant d’identifier les utilisateurs du site,</li>
+                                <li>les cookies qui ont pour unique finalité de contribuer à la sécurité du service demandé par l’utilisateur,</li>
+                                <li>les cookies permettant d’enregistrer la langue parlée par l’utilisateur (pour les sites traduits en plusieurs langues) ou autres préférences nécessaires à la fourniture du service demandé,</li>
+                                <li>les cookies flash contenant des éléments strictement nécessaires pour faire fonctionner un lecteur de média (audio ou vidéo), correspondant à un contenu demandé par l’utilisateur.</li>
+                            </ul>
+                            <p>MYGEONAUTE peut également être amené à utiliser les cookies ayant pour finalité de nous renseigner sur les produits, services et pages que vous consultez. Ces cookies nous permettent de vous proposer un contenu personnalisé et notamment d’afficher lors de votre connexion sur notre site des publicités ciblées en rapport avec vos sports passions et vos attentes.</p>
+                            <p>Ces cookies peuvent être paramétrés selon vos choix, tels que décrits dans la section ci-dessous. En cas de refus des cookies nous permettant d’identifier les produits, services et pages que vous consultez, le contenu de votre navigation ne sera pas personnalisé et les publicités affichées pourront être sans intérêt pour vous.</p>
+
+                            <h5>MYGEONAUTE permet-il à des tiers d’utiliser des Cookies lors de ma navigation?</h5>
+                            <p>MYGEONAUTE utilise Google AnalyticsTM, un service d'analyse de site internet fourni par Google Inc. Google Analytics utilise des cookies, qui sont des fichiers texte placés sur votre terminal, pour aider le site internet à analyser l'utilisation du site par ses utilisateurs et à réaliser des statistiques. Les données générées par les cookies concernant votre utilisation du site (y compris votre adresse IP) sont transmises et stockées par Google sur des serveurs situés aux Etats-Unis. Google utilisera cette information dans le but d'évaluer votre utilisation du site, de compiler des rapports sur l'activité du site à destination de son éditeur et de fournir d'autres services relatifs à l'activité du site et à l'utilisation d'Internet. Google est susceptible de communiquer ces données à des tiers en cas d'obligation légale ou lorsque ces tiers traitent ces données pour le compte de Google, notamment l'éditeur de ce site. Google ne recoupera pas votre adresse IP avec toute autre donnée détenue par Google. Vous pouvez désactiver l'utilisation de cookies en sélectionnant les paramètres appropriés de votre navigateur (cf.ci-dessous). Cependant, une telle désactivation pourrait empêcher l'utilisation de certaines fonctionnalités de ce site. En utilisant ce site internet, vous consentez expressément au traitement de vos données nominatives par Google dans les conditions et pour les finalités décrites ci-dessus. Pour consulter les Règles de confidentialité Google <a href="http://www.google.com/intl/fr/policies/privacy/" target="_blank">cliquez ici</a>.</p> 
+                            <p>Google a adhéré aux principes relatifs à la protection des données « Safe Harbor Privacy Principles » établies par le Département du Commerce américain. Ces principes, négociés entre les autorités américaines et la Commission européenne en 2001, sont essentiellement basés sur ceux de la Directive 95/46 du 24 octobre 1995 et assurent une protection adéquate pour les transferts de données en provenance de l’Union européenne vers des entreprises établies aux Etats-Unis.</p>
+
+                            <h5>Comment exercer votre choix concernant les cookies ?</h5>
+                            <h6>- Paramètres du navigateur et conséquences de vos choix :</h6>
+                            <p>Plusieurs possibilités vous sont offertes pour gérer les cookies. A tout moment, vous pouvez exprimer et  modifier vos souhaits en matière de cookies, via la section Aide de la barre d'outils de votre navigateur. Celle-ci vous indique comment refuser les nouveaux « cookies » ou obtenir un message qui vous signale leur réception ou encore comment désactiver les «cookies» soit systématiquement, soit selon leur émetteur.  Vous pouvez également effacer les cookies manuellement.</p>
+
+                            <p>Vous pouvez aussi choisir de désactiver ou de supprimer des données similaires utilisées par des logiciels accessoires à votre navigateur, tels que les Flash cookies, en modifiant les paramètres de ces logiciels ou en visitant le site Internet de l'éditeur de ces logiciels.</p>
+
+                            <p>Attention, il est possible que cette configuration de votre navigateur vous prive d’accéder à certains contenus ou perturbe significativement votre navigation et les services que vous attendez de la part de notre site. Le cas échéant, nous déclinons toute responsabilité pour les conséquences liées au comportement dégradé de notre site résultant de l'impossibilité d’utiliser les cookies nécessaires à son fonctionnement.</p>
+
+
+                            <h6>- Votre choix selon votre navigateur internet :</h6>
+                            <p>Pour la gestion des cookies, chaque navigateur propose un process de configuration. Il est décrit dans le menu d'aide de votre navigateur, qui vous permettra de savoir de comment manifester votre volonté en matière de cookies :</p>
+
+                            <p>Pour Internet Explorer™ : ouvrez le menu «Outils», puis sélectionnez «Options internet» ; cliquez sur l'onglet «Confidentialité» puis l’onglet «Avancé» choisissez le niveau souhaité ou suivez ce lien : <a href="http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies" target="_blank">http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies</a></p>
+
+                            <p>Pour Firefox™ : ouvrez le menu «Outils», puis sélectionnez «Options» ; cliquez sur l'onglet «Vie privée» puis choisissez les options souhaitées ou suivez ce lien : <a href="http://support.mozilla.org/fr/kb/activer-desactiver-cookies" target="_blank">http://support.mozilla.org/fr/kb/activer-desactiver-cookies</a></p>
+
+                            <p>Pour Chrome™ : ouvrez le menu de configuration (logo clé à molettes), puis sélectionnez «Options» ; cliquez sur «Options avancées» puis dans la section «Confidentialité», cliquez sur «Paramètres de contenu», et choisissez les options souhaitées ou suivez le lien suivant : <a href="http://support.google.com/chrome/bin/answer.py?hl=fr&hlrm=en&answer=95647" target="_blank">http://support.google.com/chrome/bin/answer.py?hl=fr&hlrm=en&answer=95647</a></p>
+
+                            <p>Pour Safari™ : choisissez « Safari > Préférences» puis cliquez sur «Sécurité» ; Dans la section «Accepter les cookies» choisissez les options souhaitées ou suivez ce lien : <a href="http://docs.info.apple.com/article.html?path=Safari/3.0/fr/9277.html" target="_blank">http://docs.info.apple.com/article.html?path=Safari/3.0/fr/9277.html</a></p>
+
+                            <p>Pour Opera™ : ouvrez le menu «Outils» ou «Réglages», puis sélectionnez «Supprimer les données privées»; cliquez sur l'onglet «Options détaillées», puis choisissez les options souhaitées ou suivez ce lien : <a href="http://help.opera.com/Windows/10.20/fr/cookies.html" target="_blank">http://help.opera.com/Windows/10.20/fr/cookies.html</a></p>
+
+                            <h6>-Votre choix sur mobile</h6> 
+
+                            <p>Pour spécifier si Safari™  accepte ou non des cookies</p>
+                            <ol>
+                                <li>Dans l’écran principal, choisissez Réglages > Safari.</li>
+                                <li>Touchez Accepter les cookies et choisissez « Jamais », « Des sites visités » ou « Toujours ».</li>
+                            </ol>
+
+                            <p>Pour effacer tous les cookies dans Safari</p>
+                            <ol>
+                                <li>Dans l’écran principal, choisissez Réglages > Safari.</li>
+                                <li>Touchez Effacer les cookies.</li>
+                            </ol>
+                            <p>Pour supprimer les cookies sur Androïd</p>
+                            <ol>
+                                <li>Menu > Paramètres > Effacer tous les cookies</li>
+                            </ol>
+
+                            <h4>III - Collecte par des sites tiers</h4>
+
+                            <p>MYGEONAUTE utilise des plug-ins du réseau social Facebook, exploité par la société Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA. Lorsque vous demandez l’accès à une page de notre site contenant un tel plug-in, votre navigateur établit une connexion directe avec les serveurs de Facebook. Le contenu des Plugins est directement transmis à votre navigateur par Facebook et inséré sur la page du site. Facebook est informé que votre navigateur a accédé à la page correspondante de notre site, y compris si vous ne possédez pas de compte utilisateur Facebook ou si vous êtes au même moment déconnecté de votre compte Facebook. Votre adresse IP est transmise directement par votre navigateur à un serveur de Facebook situé aux Etats-Unis et est enregistrée à cet endroit.</p>
+                            <p>Si vous êtes connecté à Facebook lors de votre navigation sur notre site, Facebook pourra directement relier votre visite à votre compte utilisateur Facebook. Si vous interagissez au moyen des plug-ins, par exemple en cliquant sur le bouton « J’aime » ou en laissant un commentaire, les informations correspondantes seront transmises et enregistrées sur un serveur de Facebook. Elles seront publiées sur votre compte Facebook. Facebook peut utiliser ces informations à des fin publicitaires, des études de marchés et adapter ses pages Facebook. Ainsi Facebook peut créer des profils d’utilisateurs, d’intérêt et de relations, afin par exemple évaluer l’utilisation du site après avoir vu des publicités Facebook,  informer d’autres utilisateurs Facebook sur les activités de notre site web et pour offrir d’autres services en lien avec l’utilisation de Facebook.</p>
+                            <p>Si vous ne souhaitez pas que Facebook relie les informations collectées par l’intermédiaire de notre site à votre compte utilisateur Facebook, vous devez vous déconnecter de Facebook avant de visiter notre site.</p>
+                            <p>Pour plus d’informations sur la finalité et l’étendue de la collecte des données par Facebook, leur traitement et utilisation par Facebook, ainsi que vos droits s’y rapportant et les possibilités de configuration en vue de la protection de votre sphère privée, nous vous invitons à vous référer à la politique d’informations sur la protection des données de Facebook, accessible en suivant ce <a href="http://www.facebook.com/policy.php" target="_blank">lien</a>.</p>
+                        </div>
+                        <div class="tab-pane" id="personal-data-en">
+                            <h4>I - Collection of data by MYGEONAUTE</h4>
+                            <h5>What is my data used for?</h5>
+                            <p>Your data is electronically processed allowing your user account to be managed. It is also used by companies of the Oxylane Network, as part of statistical studies and marketing activities in order to offer you deals tailored to your sporting preferences, monitor the quality of our products and services and, subject to your prior consent, enable commercial prospecting.</p>
+
+                            <h5>Who will see my data?</h5>
+                            <p>The data collected on this Site is intended for the company DECATHLON SA, in its capacity as data controller. This data is also intended for other OXYLANE Network entities (Subsidiaries of DECATHLON SA). To find out more about the companies making up the OXYLANE Network, go to <a href="http://www.oxylane.com">www.oxylane.com</a></p>
+
+                            <h5>How is my data protected?</h5>
+                            <p>In accordance with the provisions of Article 34 of the French data protection law of 6 January 1978, MYGEONAUTE takes every precaution to protect the security of your data to prevent its disclosure to unauthorised third parties. As such, MYGEONAUTE implements all necessary measures to secure its computing devices. In the event that your data is transferred to subcontractors (to be hosted, for example) MYGEONAUTE shall ensure that they have a level of security consistent with required standards.</p> 
+
+                            <h5>Will my data be transferred outside of the European Union?</h5>
+                            <p>Your data may, due to the partial outsourcing of processing, be transferred to providers established outside the European Union. In this case, MYGEONAUTE shall ensure that such transfer complies with the recommendations of the CNIL: signing of contractual clauses issued by the European Commission or, for a service provider established in the United States, checking that they are already members of Safe Harbor.</p>
+
+                            <h5>What are my rights?</h5>
+                            <p>In accordance with the provisions of Articles 38, 39 and 40 of the French data protection law of 6 January 1978, You have the right to access, rectify and oppose the processing of data relating to you by sending a letter and/or e-mail to:</p>
+                            <strong>DECATHLON SA</strong><br />
+                            <strong>GEONAUTE Service</strong><br />
+                            4 rue du professeur Langevin 59000 Lille<br />
+                            <a href="mailto:support@geonaute.com">support@geonaute.com</a><br />
+                            <small>(please attach a copy of your identity document to the letter).</small>
+
+                            <p>MYGEONAUTE guarantees that your data cannot be used for commercial solicitation without your prior consent. In case of consented commercial solicitation, MYGEONAUTE guarantees you the right to object to it in retrospect.</p>
+
+                            <h4>II - Saving data using cookies</h4>
+
+                            <h5>What is a cookie?:</h5>
+                            <p>MYGEONAUTE uses "cookies". A cookie is a file installed on your device, which stores information about your visit to our website (language settings, connection time, visited pages, etc.). We can access this data during your next visit to improve your browsing experience.</p>
+
+                            <p>Cookies used by our site record your IP address and your user ID. The paragraphs below are intended, for the sake of transparency, to give you an exhaustive list of the cookies used by MYGEONAUTE, and to offer you a solution to adapt your choice. We draw your attention to the fact that sharing the use of your device with other people is likely to modify the personalised nature of cookies</p>
+
+                            <h5>What Cookies are used by MYGEONAUTE?</h5>
+                            <p>MYGEONAUTE uses "Cookies " " for the following purposes:</p> 
+
+                            <ul>
+                                <li>cookies used as a "shopping basket" on online stores (to keep of track items saved in your shopping basket)</li>
+                                <li>"user session" (SessionID) cookies enable site users to be identified,</li>
+                                <li>cookies that have the sole purpose of contributing to the security of the service requested by the user,</li>
+                                <li>cookies enabling the language spoken by the user (for sites translated into several languages) or other preferences needed to provide the requested service to be recorded,</li>
+                                <li>flash cookies containing elements strictly necessary for running a media player (audio or video), corresponding to content requested by the user.</li>
+                            </ul>
+
+                            <p>MYGEONAUTE may also need to use cookies whose purpose is to inform you about products, services and pages you visit. These cookies allow us to offer you personalised content such as displaying targeted advertisements when you login on our site that relate to your passion sports and expectations.</p>
+                            <p>These cookies can be set according to your choice, as described in the section below. In case of refusal of cookies allowing us to identify the products, services and pages you visit, the content of your browsing will not be personalised and the advertisements displayed may be of no interest to you.</p>
+
+                            <h5>Does MYGEONAUTE allow third parties to use Cookies while I am browsing?</h5>
+                            <p>MYGEONAUTE uses Google AnalyticsTM, a web analytics service provided by Google Inc. Google Analytics uses cookies, which are text files placed on your computer, to help the website analyse how users use the site and generate statistics. The information generated by cookies about your use of the website (including your IP address) are transmitted to and stored by Google on servers in the United States. Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf, such as the operator of this site. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser (see below). However, please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above. To see the Google Privacy Policy <a href="http://www.google.com/intl/en/policies/privacy/" target="_blank">click here</a>.</p> 
+                            <p>Google adheres to the "Safe Harbor Privacy Principles" established by the U.S. Department of Commerce. These principles, negotiated between the U.S. authorities and the European Commission in 2001, are essentially based on those of Directive 95/46 of 24 October 1995 and provide adequate protection for data transfers from the EU to companies located in the United States.</p>
+
+                            <h5>How to make a choice regarding cookies</h5>
+                            <h6>- Browser settings and consequences of your choices:</h6>
+                            <p>Several options are available to manage cookies. At any time, you can express and modify your wishes in terms of cookies, via the Help section of your browser toolbar. It tells you how to refuse new "cookies" or receive a message that tells you when they are received or how to disable "cookies" either systematically or according to their issuer. You can also delete cookies manually.</p>
+
+                            <p>You can also choose to disable or delete similar data used by browser add-on software, such as Flash cookies, by changing the settings of such software or by visiting the software publisher's website.</p>
+
+                            <p>Please note, it is possible that your browser settings will block you from accessing certain content or significantly disrupt your browsing and the services you expect from our site. In this case, we shall not be responsible for the consequences of the diminished performance of our site resulting from the inability to use the cookies required for its operation.</p>
+
+                            <h6>- Your choice depending on your internet browser:</h6>
+                            <p>For managing cookies, each browser offers a configuration process. It is described in the help menu of your browser, which will enable you to express your wishes in terms of cookies:</p>
+
+                            <p>For Internet Explorer™: open the "Tools" menu and select "Internet Options"; click on the "Privacy" tab and then the "Advanced" tab and select the desired level or follow this link: <a href="http://windows.microsoft.com/en-gb/windows-vista/Block-or-allow-cookies" target="_blank">http://windows.microsoft.com/en-gb/windows-vista/Block-or-allow-cookies</a></p>
+
+                            <p>For Firefox™: open the "Tools" menu, then select "Options"; click on the "Privacy" tab then select the desired options or follow this link: <a href="http://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank" >http://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences</a></p>
+
+                            <p>For Chrome™: open the settings menu (spanner logo), then select "Options"; click on "Advanced Options" and in the "Privacy" section, click "Content Settings" and choose the desired options or follow the following link: <a href="http://support.google.com/chrome/bin/answer.py?hl=en&hlrm=en&answer=95647" target="_blank">http://support.google.com/chrome/bin/answer.py?hl=en&hlrm=en&answer=95647</a></p>
+
+                            <p>For Safari™: choose "Safari > Preferences" and then click "Security"; Under "Accept Cookies", select the desired options or follow this link: <a href="http://docs.info.apple.com/article.html?path=Safari/3.0/fr/9277.html" target="_blank" >http://docs.info.apple.com/article.html?path=Safari/3.0/fr/9277.html</a></p>
+
+                            <p>For Opera™: open the "Tools" or "Settings" menu, then select "Delete private data"; click on the "Detailed options" tab then select the desired options or follow this link: <a href="http://help.opera.com/Windows/10.20/en/cookies.html" target="_blank">http://help.opera.com/Windows/10.20/fr/cookies.html</a></p>
+
+                            <h6>-Your choice on your mobile</h6>
+
+                            <p>Choose whether Safari™ accepts cookies or not</p>
+                            <ol>
+                                <li>On the main screen, choose Settings > Safari.</li>
+                                <li>Select Accept Cookies and choose "Never", "From visited" or "Always".</li>
+                            </ol>
+
+                            <p>To delete all cookies in Safari</p>
+                            <ol>
+                                <li>On the main screen, choose Settings > Safari.</li>
+                                <li>Select Delete cookies.</li>
+                            </ol>
+
+                            <p>To delete cookies on Android</p>
+                            <ol>
+                                <li>Menu > Settings > Clear all cookie data<li>
+                            </ol>
+
+                            <h4>III - Collection by third party sites</h4>
+
+                            <p>MYGEONAUTE uses plug-ins from the social network Facebook, operated by Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA. When you request access to a page of one of our sites containing such a plugin, your browser establishes a direct connection with the Facebook servers. The content of the plugins is transmitted directly to your browser by Facebook and inserted on the site page. Facebook is informed that your browser has accessed the corresponding page of the site, even if you do not have a Facebook user account or if you are currently not connected to your Facebook account. Your IP address is transmitted directly from your browser to a Facebook server located in the United States and is saved in this location.</p>
+                            <p>If you are logged in to Facebook whilst browsing our site, Facebook may directly link your visit to your Facebook user account. If you interact with the plugins, for example by clicking "Like" or leaving a comment, the corresponding information will be transmitted to and stored on a Facebook server. They will be published to your Facebook account. Facebook can use this information for advertising purposes, market research and to adapt its Facebook pages. Facebook can then create user profiles, of interests and relationships, in order to, for example, evaluate use of the site after having seen Facebook advertisements, to inform other Facebook users on the activities of our website and to offer other services relating to the use of Facebook.</p>
+                            <p>If you do not want Facebook to connect the information collected via our site to your Facebook user account, you must log out of Facebook before visiting our site.</p>
+                            <p>For more information on the purpose and extent of data collection by Facebook, its processing and use by Facebook, well as your rights relating to it and configuration options for the protection of your privacy, please refer to the information policy on the protection of data from Facebook, accessible by following this <a href="http://www.facebook.com/policy.php" target="_blank">link</a>.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="language" class="popup mfp-hide">
+                    <h3>Escolha do idioma</h3>
+                    <ul class="list-unstyled language-list">
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=de&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/DE.png"/> alemão</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=zh&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/ZH.png"/> chinês</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=es&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/ES.png"/> espanhol</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=fr&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/FR.png"/> francês</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=nl&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/NL.png"/> holandês</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=hu&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/HU.png"/> húngaro</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=en&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/EN.png"/> inglês</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=it&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/IT.png"/> italiano</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_language?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/PT.png"/> português</a></li>
+                    </ul>
+                </div>
+
+                <div id="country" class="popup mfp-hide">
+                    <h3>Escolha do país</h3>
+                    <ul class="list-unstyled country-list">
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=DE&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/DE.png"/> Alemanha</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=BR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/BR.png"/> Brasil</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=BE&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/BE.png"/> Bélgica</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=CN&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/CN.png"/> China</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=ES&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/ES.png"/> Espanha</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=FR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/FR.png"/> França</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=NL&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/NL.png"/> Holanda</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=HU&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/HU.png"/> Hungria</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=IT&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/IT.png"/> Itália</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=PL&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/PL.png"/> Polônia</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=PT&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/PT.png"/> Portugal</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=GB&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/GB.png"/> Reino Unido</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=CZ&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/CZ.png"/> República Tcheca</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=RO&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/RO.png"/> Romênia</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=RU&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/RU.png"/> Rússia</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=SE&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/SE.png"/> Suécia</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=TR&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/TR.png"/> Turquia</a></li>
+
+                        <li><a href="http://www.mygeonaute.com/pt-BR/portal/change_country?route=geonaute_module_portal_activities_show&amp;route_params%5B_locale%5D=pt&amp;route_params%5B_country%5D=IN&amp;route_params%5BactivityId%5D=797abbf9b6186c53b3a6"><img src="http://www.mygeonaute.com/bundles/geonautemodulecore/img/flags/IN.png"/> Índia</a></li>
+                    </ul>
+                </div>    </footer>
+        </div>
+
+        <!-- Loading javascripts -->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/underscorejs/1.6.0/underscore-min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/underscore.string/2.3.3/underscore.string.js"></script>
+        <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/qtip2/2.2.0/jquery.qtip.min.js"></script>
+
+        <script type="text/javascript">
+                                        window.Request = {
+                                            query: [],
+                                            attributes: {"_controller": "Geonaute\\Module\\PortalBundle\\Controller\\ActivityController::showActivityAction", "_locale": "pt", "_country": "BR", "activityId": "797abbf9b6186c53b3a6", "_route": "geonaute_module_portal_activities_show", "_route_params": {"_locale": "pt", "_country": "BR", "activityId": "797abbf9b6186c53b3a6"}, "paramFetcher": {}},
+                                            request: [],
+                                            get: function(key, _default) {
+                                                if (this.query[key])
+                                                    return this.query[key];
+                                                else if (this.attributes[key])
+                                                    return this.attributes[key];
+                                                else if (this.request[key])
+                                                    return this.request[key];
+                                                else
+                                                    return _default;
+                                            }
+                                        };
+
+                                        window.Context = {"language": {}, "country": {}, "activeMenu": "activities", "provider": {}, "params": {"_locale": "pt", "_country": "BR", "activity": {"activity_id": "797abbf9b6186c53b3a6"}, "user": {"ldid": "d943774a938b8f930f59", "token": "mBWE9vDAJv0nFs\/Gcpi9Sn8mZMFX0WaX\/aZQhhpvHD7o6QFPE\/vOS7w2j2\/0fz+xRJCqa3bIxRH+B0O19HG2OF+VJsMZnvqhuQDsAoddzQ6n9TGfLRG+Dy17h5y9lVNsltIq9kr9wq6O9v+Qxfz6bjw04f8kQ9eSijoBP3AVg4U=", "lang": "pt", "level": 0}, "laps": [[0, 592, []]], "lap_select": true, "lap_method": "every_400m"}, "hasWidgetsClass": "without-map with-chart", "userMeasures": {"27": 176, "22": 69, "28": 55, "3": 200}, "assetic": {"debug": false, "vars": {}, "use_controller": false}, "app": {}, "meta_viewport": "width=device-width, initial-scale=1.0", "meta_robots": "index, follow, all", "geonaute_module_home_url": "http:\/\/www.mygeonaute.com", "geonaute_facebook_url": "http:\/\/www.facebook.com\/geonaute", "geonaute_facebook_appid": "211210545639007", "geonaute_start_url": "http:\/\/start.geonaute.com", "geonaute_faq_url": "http:\/\/www.geonaute.com\/support\/forum\/faq\/utilisation-de-mygeonaute\/", "geonaute_faq_url_fr": "https:\/\/mygeonaute.zendesk.com\/hc\/fr", "geonaute_contact_url": "http:\/\/www.geonaute.com\/cms\/marque\/nous-contacter", "geonaute_onconnect_win_url": "http:\/\/www.mygeonaute.com\/downloads\/onconnect?os=Win", "geonaute_onconnect_mac_url": "http:\/\/www.mygeonaute.com\/downloads\/onconnect?os=Mac", "geonaute_cgu_url": "\/pdf\/CGUmyGeonaute-fr.pdf", "geonaute_cgu_url_en": "\/pdf\/GCUmyGeonaute-en.pdf", "geonaute_signin": "http:\/\/www.mygeonaute.com\/portal", "geonaute_signup": "https:\/\/account.geonaute.com\/mygeonaute\/newuser", "geonaute_account_url": "https:\/\/account.geonaute.com\/mygeonaute\/profile", "google_analytics_ua": "UA-30373518-2", "sowego_cgu_url": "\/pdf\/CGUCorporate.pdf", "chunk_enabled": true, "garmin_communicator.url.ant_agent": "http:\/\/www.garmin.com\/fr\/support\/antagent\/", "zendesk_idea_dropbox_id": 20205322, "zendesk_idea_url": "https:\/\/geonaute.zendesk.com", "zendesk_bug_dropbox_id": 20205312, "zendesk_bug_url": "https:\/\/geonaute.zendesk.com", "sonata_block": {}, "sonata_user": {}, "layout": "GeonauteModulePortalBundle::layout.html.twig", "portal": {}};
+
+                                        var context = {
+                                            _locale: Request.get("_locale"),
+                                            _country: Request.get("_country"),
+                                            params: Context.params
+                                        };
+
+                                        var interval = 4 * 60 * 1000; // milliseconds
+
+                                        setInterval(function() {
+                                            $.ajax("/pt-BR/portal/context/refresh").done(function(data) {
+                                                $.extend(true, window.Context, data);
+                                            });
+                                        }, interval);
+        </script>
+
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/a7db9af.js"></script>
+
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/3ec06c4.js"></script>
+
+        <script type="text/javascript">
+                        (function(i, s, o, g, r, a, m) {
+                            i['GoogleAnalyticsObject'] = r;
+                            i[r] = i[r] || function() {
+                                (i[r].q = i[r].q || []).push(arguments)
+                            }, i[r].l = 1 * new Date();
+                            a = s.createElement(o),
+                                    m = s.getElementsByTagName(o)[0];
+                            a.async = 1;
+                            a.src = g;
+                            m.parentNode.insertBefore(a, m)
+                        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                        ga('create', 'UA-30373518-2', 'mygeonaute.com');
+                        ga('send', 'pageview');
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $.cookiesDirective({
+                    html: 'MYGEONAUTE utiliza cookies para oferecer-lhe o melhor serviço. Ao prosseguir a sua navegação neste site, está a aceitar a utilização dos cookies ou tecnologias semelhantes para lhe propor serviços e ofertas adaptadas, opções de partilha social, e/ou para realizar estatísticas e medir o público do nosso site. <a id="cookie-link" href="#personal_data" class="open-popup-link"> Para saber mais</a><div style="margin-top:5px;"><input type="submit" name="impliedsubmit" id="impliedsubmit" class="btn btn-default btn-sm" value="Não apresentar mais esta mensagem"/></div>',
+                    explicitConsent: false,
+                    position: 'bottom'
+                });
+
+
+                $('#cookie-link').on('click', function() {
+                    ga('send', 'event', 'cookies', 'click', 'more');
+                });
+
+                $('#impliedsubmit').on('click', function() {
+                    ga('send', 'event', 'cookies', 'click', 'close');
+                });
+            });
+        </script>            <script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+        <style type="text/css" media="screen, projection">
+            @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+        </style>
+        <script type="text/javascript">
+                        if (typeof (Zenbox) !== "undefined") {
+                            Zenbox.open = function(type) {
+                                if (type === "idea") {
+                                    Zenbox.update({
+                                        dropboxID: "20205322",
+                                        url: "https://geonaute.zendesk.com",
+                                        tabTooltip: "Suggestions",
+                                        tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_fr_feedback.png",
+                                        tabColor: "black",
+                                        tabPosition: "Left",
+                                        hide_tab: "true",
+                                        requester_name: "gbzarelli Guilherme Biff Zarelli",
+                                        requester_email: "gbzarelli@gmail.com"
+                                    });
+
+                                    Zenbox.show();
+                                }
+
+                                else if (type === "bug") {
+                                    Zenbox.update({
+                                        dropboxID: "20205312",
+                                        url: "https://geonaute.zendesk.com",
+                                        tabTooltip: "Assistance",
+                                        tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_fr_support.png",
+                                        tabColor: "black",
+                                        tabPosition: "Left",
+                                        hide_tab: "true",
+                                        requester_name: "gbzarelli Guilherme Biff Zarelli",
+                                        requester_email: "gbzarelli@gmail.com"
+                                    });
+
+                                    Zenbox.show();
+                                }
+                            };
+                        }
+        </script>            
+
+
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/577d67c.js"></script>
+
+        <script src="/js/routing?callback=fos.Router.setData"></script>
+
+        <script type="text/javascript">
+                    $(function() {
+                        jQuery.initWidgetManager({
+                            debug: false
+                        });
+
+                        $(window).on('requestuser', function() {
+                            $(window).publish('userinfo', context.params.user);
+                        });
+
+                        $(window).on('widget.activity.request', function() {
+                            $(window).publish('widget.activity.info', context.params.activity);
+                        });
+
+                        // catch activity.change event, to change showed activity
+                        $(window).on('activity.change', function(event, data) {
+                            var url = Routing.generate("geonaute_module_portal_activities_show", {
+                                activityId: data.activity_id,
+                                _locale: Request.get('_locale'),
+                                _country: Request.get('_country')
+                            });
+
+                            document.location.href = url + document.location.hash;
+                        });
+
+                        $(".widget-iframe").each(function() {
+                            var $widget = $(this);
+                            $widget.addWidget($widget.data('src'));
+                        });
+                    });</script>
+
+        <script type="text/javascript">
+            $(function() {
+                $(".sidr-button").sidr({
+                    "source": "http://www.mygeonaute.com/pt-BR/portal/navigation/side-menu?activeMenu=activities",
+                    "body": ".global-container",
+                    "width": "160px"
+                });
+
+                $(window).on("scroll", function(event) {
+                    if ($(".global-container").hasClass("sidr-open-left")) {
+                        $(window).scrollLeft(0);
+                    }
+                });
+
+                /*
+                 $(".global-container").on("touchstart", function(event) {
+                 if ($(this).hasClass("sidr-open-left") && $(event.target).closest(".sidr").length == 0) {
+                 $.sidr('close');
+                 }
+                 });
+                 */
+
+                $(".global-container").on("click", function(event) {
+                    if ($(event.target).closest(".sidr").length == 0) {
+                        $.sidr('close');
+                    }
+                });
+
+                $(".global-container").on("click", "#sidr a.company-parameters", function() {
+                    $('header a[href="#company-parameters"]').trigger("click");
+                });
+
+                $(".global-container").on("click", "#sidr a.about-sowemove", function() {
+                    $('header a[href="#about-sowemove"]').trigger("click");
+                });
+
+                $('.about-sowemove-popup').magnificPopup({
+                    type: 'inline',
+                    midClick: true
+                });
+
+            });</script>
+
+
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=true"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                if ($.fn.socialButtons !== undefined) {
+                    $.extend($.fn.socialButtons.methods, {
+                        generateUserInfo: function() {
+                            return {
+                                'user': context.params ? context.params.user : null,
+                                'activity': context.params ? context.params.activity : null
+                            };
+                        }
+                    });
+
+                    $('.social').socialButtons({
+                        attributes: {
+                            'facebook-app-id': 211210545639007
+                        }
+                    });
+                }
+            });
+            $(function() {
+                $(document).activityTooltip({
+                    activityDataStreamUrl: "http://www.mygeonaute.com/tooltip/ajax/activities/797abbf9b6186c53b3a6/datastream",
+                    icons: {"1": "icon-geonaute-heart", "2": "icon-geonaute-heart", "3": "icon-geonaute-heart", "4": "icon-geonaute-heart", "5": "icon-geonaute-road", "6": "icon-geonaute-perform", "9": "icon-geonaute-perform", "10": "icon-geonaute-step", "14": "icon-geonaute-mountain", "15": "icon-geonaute-mountain", "16": "icon-geonaute-mountain", "18": "icon-geonaute-ascent", "19": "icon-geonaute-descent", "20": "icon-geonaute-time", "21": "icon-geonaute-time", "22": "icon-geonaute-cal", "23": "icon-geonaute-cal", "24": "icon-geonaute-time", "10000": "icon-geonaute-time", "25": "icon-geonaute-percent", "26": "icon-geonaute-percent", "27": "icon-geonaute-cal", "28": "icon-geonaute-heart", "29": "icon-geonaute-step", "30": "icon-geonaute-walk-fast", "37": "icon-geonaute-time", "38": "icon-geonaute-time", "41": "icon-geonaute-cal", "97": "icon-geonaute-on", "99": "icon-geonaute-on", "100": "icon-geonaute-rpm", "98": "icon-geonaute-hightchart", "10001": "icon-geonaute-perform", "10012": "icon-geonaute-next", "10013": "icon-geonaute-ascent-arrow", "10014": "icon-geonaute-descent-arrow"}
+                });
+
+
+                $(window).on('activity.tooltip.show', function(event, data) {
+                    $(document).activityTooltip('showTooltip', [data.x, data.y], data.elapsedTime, {
+                        timeDatatype: data.timeDatatype,
+                        highlightedDatatype: data.highlightedDatatype,
+                        shownDatatype: data.shownDatatype
+                    });
+                });
+
+                $(window).on('activity.tooltip.hide', function(event) {
+                    $(document).activityTooltip('hideTooltip');
+                });
+
+                $(document).activityTooltipSection({
+                    activityDataStreamUrl: "http://www.mygeonaute.com/tooltip/ajax/activities/797abbf9b6186c53b3a6/datastream",
+                    icons: {"1": "icon-geonaute-heart", "2": "icon-geonaute-heart", "3": "icon-geonaute-heart", "4": "icon-geonaute-heart", "5": "icon-geonaute-road", "6": "icon-geonaute-perform", "9": "icon-geonaute-perform", "10": "icon-geonaute-step", "14": "icon-geonaute-mountain", "15": "icon-geonaute-mountain", "16": "icon-geonaute-mountain", "18": "icon-geonaute-ascent", "19": "icon-geonaute-descent", "20": "icon-geonaute-time", "21": "icon-geonaute-time", "22": "icon-geonaute-cal", "23": "icon-geonaute-cal", "24": "icon-geonaute-time", "10000": "icon-geonaute-time", "25": "icon-geonaute-percent", "26": "icon-geonaute-percent", "27": "icon-geonaute-cal", "28": "icon-geonaute-heart", "29": "icon-geonaute-step", "30": "icon-geonaute-walk-fast", "37": "icon-geonaute-time", "38": "icon-geonaute-time", "41": "icon-geonaute-cal", "97": "icon-geonaute-on", "99": "icon-geonaute-on", "100": "icon-geonaute-rpm", "98": "icon-geonaute-hightchart", "10001": "icon-geonaute-perform", "10012": "icon-geonaute-next", "10013": "icon-geonaute-ascent-arrow", "10014": "icon-geonaute-descent-arrow"}
+                });
+
+                $(window).on('section.tooltip.show', function(event, data) {
+                    $(document).activityTooltipSection('showTooltip', [data.x, data.y], data.section, {
+                        timeDatatype: data.timeDatatype,
+                        highlightedDatatype: data.highlightedDatatype,
+                        shownDatatype: data.shownDatatype
+                    });
+                });
+
+                $(window).on('section.tooltip.hide', function(event) {
+                    $(document).activityTooltipSection('hideTooltip');
+                });
+
+
+            });
+            $(function() {
+                $(document).activityTooltipLap({
+                    activityDataStreamUrl: "http://www.mygeonaute.com/tooltip/ajax/activities/797abbf9b6186c53b3a6/datastream/laps?lap_method=every_400m",
+                    icons: {"1": "icon-geonaute-heart", "2": "icon-geonaute-heart", "3": "icon-geonaute-heart", "4": "icon-geonaute-heart", "5": "icon-geonaute-road", "6": "icon-geonaute-perform", "9": "icon-geonaute-perform", "10": "icon-geonaute-step", "14": "icon-geonaute-mountain", "15": "icon-geonaute-mountain", "16": "icon-geonaute-mountain", "18": "icon-geonaute-ascent", "19": "icon-geonaute-descent", "20": "icon-geonaute-time", "21": "icon-geonaute-time", "22": "icon-geonaute-cal", "23": "icon-geonaute-cal", "24": "icon-geonaute-time", "10000": "icon-geonaute-time", "25": "icon-geonaute-percent", "26": "icon-geonaute-percent", "27": "icon-geonaute-cal", "28": "icon-geonaute-heart", "29": "icon-geonaute-step", "30": "icon-geonaute-walk-fast", "37": "icon-geonaute-time", "38": "icon-geonaute-time", "41": "icon-geonaute-cal", "97": "icon-geonaute-on", "99": "icon-geonaute-on", "100": "icon-geonaute-rpm", "98": "icon-geonaute-hightchart", "10001": "icon-geonaute-perform", "10012": "icon-geonaute-next", "10013": "icon-geonaute-ascent-arrow", "10014": "icon-geonaute-descent-arrow"}
+                });
+
+                $(window).on('lap.tooltip.show', function(event, data) {
+                    $(document).activityTooltipLap('showTooltip', [data.x, data.y], data.lap, {
+                        highlightedDatatype: data.highlightedDatatype,
+                        shownDatatype: data.shownDatatype
+                    });
+                });
+
+                $(window).on('lap.tooltip.hide', function(event) {
+                    $(document).activityTooltip('hideTooltip');
+                });
+            });</script>
+
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/2d0dc92.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                // catch laps.change event, to change showed laps
+                $(window).on('laps.change', function(event, method) {
+                    if (Request.get('activityId')) {
+                        var url = Routing.generate("geonaute_module_portal_activities_show", {
+                            activityId: Request.get('activityId'),
+                            _locale: Request.get('_locale'),
+                            _country: Request.get('_country'),
+                            laps: method
+                        });
+                    } else {
+                        var url = Routing.generate("geonaute_module_portal_activities", {
+                            _locale: Request.get('_locale'),
+                            _country: Request.get('_country'),
+                            laps: method
+                        });
+                    }
+
+                    document.location.href = url + document.location.hash;
+                });
+            });
+        </script>
+
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/d90a0fc.js"></script>
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/6cdf2c4.js"></script>
+        <script type="text/javascript" src="http://www.mygeonaute.com/js/2fbf4f3.js"></script>
+        <script type="text/javascript">
+$(function() {
+$(".widget-lap .dropdown-select").on('click', 'a', function(event) {
+event.preventDefault();
+
+var $delegateTarget = $(event.delegateTarget);
+var $currentTarget = $(event.currentTarget);
+
+if ($currentTarget.data('laps') !== undefined) {
+$delegateTarget.find('.dropdown-selected-label').text($currentTarget.text());
+
+var laps = $currentTarget.data('laps');
+
+if (typeof ga !== 'undefined') {
+ga('send', 'event', 'activity', 'analyze', 'lap', laps.toString());
+}
+
+$(window).publish('laps.change', $currentTarget.data('laps'));
+}
+});
+});
+        </script>                        
+
+        <!-- Loading fonts -->
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" />
+
+        <link rel="stylesheet" href="http://www.mygeonaute.com/css/901afce.css" />
+    </body>
+</html>
